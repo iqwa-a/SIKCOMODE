@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDW 6</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://hypeddit-gates-prod.s3.amazonaws.com/aga6v3_coverartmanual">
+    <!-- Description -->
+    <meta name="description" content="Example of website that contain media such as image, video, and sound">
+</head>
+
+<body>
+    <!-- Background Video -->
+    <video id="bg-video" muted loop>
+        <source src="assets/Travis Scott - SICKO MODE ft. Drake.mp4" type="video/webm">
+    </video>
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Song Container -->
+    <div class="song-container">
+        <!-- Song Cover -->
+        <img src="https://hypeddit-gates-prod.s3.amazonaws.com/aga6v3_coverartmanual" alt="Song Cover" class="song-cover">
+        <!-- Song Information -->
+        <div class="song-info">
+            <h2 class="song-title">SICO MODE</h2>
+            <p class="song-artist">Travis Scott</p>
+            <!-- Progress Bar Container -->
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                </div>
+                <span class="time-display">0:00 / 0:00</span>
+            </div>
+            <!-- Play Controls -->
+            <div class="play-controls">
+                <button class="play-button" onclick="playPause()">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="pause-button" onclick="playPause()">
+                    <i class="fas fa-pause"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Audio Track -->
+        <audio src="assets/Travis Scott - SICKO MODE.mp3" class="song-track"></audio>
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
