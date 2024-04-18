@@ -29,8 +29,8 @@ I'm a full stack developer...
 ⚡️ Fun fact...
 
 
-## CODE
-
+## Hasil 
+https://zyinxxrcode.github.io/SIKCOMODE/
 <picture>
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://i.postimg.cc/8zFqJbPc/Screenshot-2024-04-18-143815.png">
 </picture>
